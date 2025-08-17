@@ -3,11 +3,56 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
     <title>Tea House</title>
+    <!-- Tailwind tag -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <link rel="stylesheet" href="style.css" />
+    <!-- font Awsome link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
-    <header></header>
+    <header>
+      <div class="headercotainer flex max-w[1296px] justify-center mt-[68px]">
+        <div class="headerleft">
+          <h1 class="text-[80px] font-bold">
+            It's good <br />
+            tea time at The <br />
+            Tea House
+          </h1>
+          <p class="font-medium text-lg text-[#777777]">
+            Tea and Botanical Solutions Supplier Give Optimum Satisfaction
+            <br />
+            To Your Taste Buds.
+          </p>
+          <button
+            class="bg-gradient-to-r from-[#FF8938] to-[#FF0000] rounded-lg px-[19px] py-[18px] text-[#ffffff] font-bold text-xl"
+          >
+            Explore More
+          </button>
+        </div>
+        <div class="bannerright mt-[53px]">
+          <img src="./images/banner.png" alt="" />
+          <div
+            class="badge flex items-center shadow-lg shadow-black max-w-60 px-6 py-4 rounded-lg relative mb-[50px]"
+          >
+            <h1><i class="fa-solid fa-star"></i></h1>
+            <div class="ml-3">
+              <h2 class="font-extrabold text-3xl">5.00</h2>
+              <h6 class="text-[16px] font-semibold text-[#777777]">
+                Trust Pilot Ratings
+              </h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
     <main></main>
     <footer></footer>
   </body>
